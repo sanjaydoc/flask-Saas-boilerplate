@@ -1,0 +1,15 @@
+flask
+flask-sqlalchemy
+flask-migrate
+flask-wtf
+flask-mailman
+email-validator
+flask-bcrypt
+flask-login
+flask-admin
+authlib
+fastapi
+uvicorn
+gunicorn
+requests
+sentry-sdk[flask]

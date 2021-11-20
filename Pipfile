@@ -1,0 +1,33 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-codecov = "*"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+flask-wtf = "*"
+email-validator = "*"
+flask-bcrypt = "*"
+flask-login = "*"
+flask-admin = "*"
+authlib = "*"
+fastapi = "*"
+uvicorn = "*"
+gunicorn = "*"
+requests = "*"
+flask-mailman = "*"
+sentry-sdk = "*"
+flask-migrate = "*"
+blinker = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+tests = "python -m pytest"
+tests-codecov = "python -m pytest --cov=./ --cov-report=xml"
